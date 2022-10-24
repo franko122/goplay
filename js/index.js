@@ -24,7 +24,12 @@ function indea10() {
     let topagain = document.getElementById("topagain");
     let joy = document.getElementById("joy");
     let life = document.getElementById("life");
-
+    let wencome = document.getElementById("wencome"); 
+    navright.style.transition="1s" 
+    wencome.addEventListener("click", () => {
+        navright.style.width="100%"
+        navright.style.transition="1s" 
+    })
     setInterval(() => {
         joy.style.display = "none"
         life.style.display = "block"

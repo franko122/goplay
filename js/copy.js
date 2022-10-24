@@ -1,4 +1,5 @@
- let dow=document.getElementById("dowload"); 
+function fuc444( ) {
+  let dow=document.getElementById("dowload"); 
   let userlays=document.getElementById("userlays"); 
   let userdown=document.getElementById("userdown"); 
   let userlayerx=document.getElementById("userlayerx"); 
@@ -42,3 +43,5 @@
     alert("Copy the link above and paste it in the input provided below to downlaod the Full HD video / mp3")
    console.log("Copy the link above and paste it in the input provided below to downlaod the Full HD video / mp3"); 
  }) 
+}
+fuc444()

@@ -1,4 +1,5 @@
-let video = document.getElementById("video");
+function namertyut() {
+    let video = document.getElementById("video");
 let vid = document.getElementById("vid");
 let down = document.getElementById("down");
 let deo = document.getElementById("deo");
@@ -67,3 +68,5 @@ song.addEventListener("click", () => {
     deos.style.display = "none";
     downs.style.display = "block"
 })
+}
+namertyut()

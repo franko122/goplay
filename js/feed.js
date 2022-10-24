@@ -49,7 +49,7 @@ upergo.addEventListener("click",()=>{
 })
 stuck.addEventListener("click" ,()=>{
     slayer.style.transition="1s"
-    slayer.style.height="275px";     
+    slayer.style.height="300px";     
     stuck.style.display="none"
     stuked.style.display="block" 
 })

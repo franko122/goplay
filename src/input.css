@@ -77,6 +77,12 @@
 .def{ 
     font-size:10px;
 }
+.defer{ 
+    font-size:8px;
+} 
+.sloperty{
+    z-index:22 ;
+} 
   .loader {
     border: 3px solid rgb(218, 218, 218);
     border-top: 5px solid black;
@@ -172,4 +178,4 @@
     10%{  
         width: 10px;
     }
-}
+}   

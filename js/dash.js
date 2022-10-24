@@ -1,7 +1,19 @@
 function views() { 
     let viewalbum=document.getElementById("viewalbum");  
     let mainalbum=document.getElementById("mainalbum");  
-    let goalbum=document.getElementById("goalbum");  
+    let goalbum=document.getElementById("goalbum");   
+    let sons=document.getElementById("sons");    
+    let yankvid=document.getElementById("yankvid"); 
+    let son=document.getElementById("son"); 
+    let allos=document.getElementById("allos");  
+    sons.addEventListener("click",()=>{  
+        yankvid.style.display="none"
+        allos.style.display="block"
+    })
+    son.addEventListener("click",()=>{  
+        yank.style.display="none"
+        allos.style.display="block"
+    })
     goalbum.addEventListener("click",()=>{ 
         goalbum.style.display="none"
         viewalbum.style.display="block"
